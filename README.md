@@ -1,2 +1,2 @@
-# portifolio
-Esse é um projeto web de portifólio
+# portfolio
+Esse é um projeto web de portfólio onde irá exibir os meus futuros projetos
