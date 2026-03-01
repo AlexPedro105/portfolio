@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="particulas"></div>
+
     <nav class="navegacao">
         <ul class="menu">
             <li><a href="index.html" class="menu-link">Inicío</a></li>
@@ -17,11 +20,9 @@
     </nav>
 
 <main id="inicio" class="cabecalho">
-    <div>
-        <img class="foto" src="img/a.jpg" alt="foto" class="foto-perfil">
-        <h1>Alex Pedro</h1>
-        <p>Desenvolvedor PHP</p>
-    </div>
+    <img src="img/img1.ico" alt="foto" class="foto-perfil">
+    <h1>Alex Pedro</h1>
+    <p class="cabecalho-sub-titulo">Desenvolvedor PHP</p>
 </main>
 
 <section id="sobre" class="sobre">
@@ -35,36 +36,41 @@
     <h2 class="projetos-titulo">Meus Projetos</h2>
     <div class="projetos-caixa">
         <div class="projetos-card">
-            <img src="img/b.jpg" alt="Projeto 1" class="projetos-imagem">
-            <h3 class="info-projetos">Projeto 1</h3>
-            <p class="paragrafo-projetos">Projeto 1</p>
+            <img src="img/b.jpeg" alt="Projeto 1" class="projetos-imagem">
+            <div class="caixa-textos-projetos">
+                <h3 class="info-projetos">Projeto 1</h3>
+                <p class="paragrafo-projetos">Projeto 1</p>
+            </div>
         </div>
-    </div>
-    <div class="projetos-caixa">
         <div class="projetos-card">
-            <img src="img/c.jpg" alt="Projeto 1" class="projetos-imagem">
-            <h3 class="info-projetos">Projeto 1</h3>
-            <p class="paragrafo-projetos">Projeto 1</p>
+            <img src="img/c.jpeg" alt="Projeto 1" class="projetos-imagem">
+            <div class="caixa-textos-projetos">
+                <h3 class="info-projetos">Projeto 1</h3>
+                <p class="paragrafo-projetos">Projeto 1</p>
+            </div>
         </div>
-    </div>
-    <div class="projetos-caixa">
+
         <div class="projetos-card">
-            <img src="img/d.jpg" alt="Projeto 1" class="projetos-imagem">
-            <h3 class="info-projetos">Projeto 1</h3>
-            <p class="paragrafo-projetos">Projeto 1</p>
+            <img src="img/b.jpeg" alt="Projeto 1" class="projetos-imagem">
+            <div class="caixa-textos-projetos">
+                <h3 class="info-projetos">Projeto 1</h3>
+                <p class="paragrafo-projetos">Projeto 1</p>
+            </div>
         </div>
     </div>
+
 </section>
 
 <section id="contatos" class="contatos">
     <h2 class="contatos-titulo">Contatos</h2>
-    <form class="formulario-contato" action="" id="formulario">
-        <div class="nome-form">
+    <form class="formulario-contato"  id="formulario">
+        <div class="grupo-form">
             <input class="campo-form" type="text"  placeholder="Nome">
         </div>
         <div class="grupo-form">
-            <textarea class="text-form" type="text" placeholder="Digite a sua mensagem"></textarea>
+            <textarea class="campo-form" type="text" placeholder="Digite a sua mensagem"></textarea>
         </div>
+        <button class="botao-form" type="submit">Enviar</button>
     </form>
 </section>
 
