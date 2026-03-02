@@ -63,16 +63,18 @@
 
 <section id="contatos" class="contatos">
     <h2 class="contatos-titulo">Contatos</h2>
-    <form class="formulario-contato"  id="formulario">
+    <form class="formulario-contato"  id="formulario" onsubmit="return enviarWhats(event)">
         <div class="grupo-form">
-            <input class="campo-form" type="text"  placeholder="Nome">
+            <input class="campo-form" type="text"  placeholder="Nome" id="nome">
         </div>
         <div class="grupo-form">
-            <textarea class="campo-form" type="text" placeholder="Digite a sua mensagem"></textarea>
+            <textarea class="campo-form" type="text" id="mensagem" rows="6" placeholder="Digite a sua mensagem"></textarea>
         </div>
         <button class="botao-form" type="submit">Enviar</button>
     </form>
 </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
